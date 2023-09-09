@@ -1,6 +1,6 @@
 <?php
 
-$con=mysqli_connect("localhost","root","","kanban",3307);
+$con=mysqli_connect("localhost","root","","kanban");
 if(!$con)
 {
     die("Failed to connect".mysqli_connect_error());
